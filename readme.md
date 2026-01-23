@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 \# Boolean
 
 PRIMA PARTE
+=======
+# Boolean
+>>>>>>> 22e12fc7f959a2206052e0f1987fa425f61684be
 
 
 
