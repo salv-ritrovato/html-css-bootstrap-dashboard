@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./dashbo_img/img/duck.png" alt="Dashboard Logo"
+                        class="img-fluid" width="50px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="nav-link active" href="#">Catalogo Libri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Anagrafica Utenti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Storico Prestiti</a>
+                        </li>
+                        <a class="nav-link active" href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container pt-3">
+            <div class="row mt-4">
+                <h2 class="mb-4">Nuovo Libro</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="formGroupExampleInput" class="form-label">Nome Autore</label>
+                        <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <label for="formGroupExampleInput" class="form-label">Cognome Autore</label>
+                        <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore"
+                            aria-label="Last name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Titolo</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Inserisci il titolo del libro">
+                        <small>Titolo versione italiana</small>
+                    </div>
+                    <label for="formGroupExampleInput" class="form-label">Genere</label>
+                    <div class="d-flex justify-content-between col-12">
+                    <select class="form-select w-auto" aria-label="Default select example">
+                        <option selected>Scegli il genere</option>
+                        <option value="1">Maschio</option>
+                        <option value="2">Femmina</option>
+                        <option value="3">Preferisco non dichiarare</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
